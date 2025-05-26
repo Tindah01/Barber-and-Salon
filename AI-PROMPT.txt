@@ -1,0 +1,155 @@
+# Salon & Barber Loyalty App Development Prompts
+#Hi claude,
+I want to make an app that helps local barbers and salons to be able to give loyalty points to their loyal customers. The app should be able to track the customers regular visits and award them points which can be redeemed for amazing stuff like free haircuts or hair washing or blowdry in that spa.
+can you help me create prompts that will lessen my work in using other ai tools please?
+## 1. App Architecture & Planning Prompt
+
+```
+Create a complete technical architecture for a salon/barber loyalty points app with the following requirements:
+- Customer visit tracking and point accumulation system
+- Rewards redemption (free haircuts, hair washing, blowdry services)
+- Business owner dashboard for multiple locations
+- Customer mobile app interface
+- Point expiration and tier-based rewards
+
+Include: database schema, API endpoints, user flows, tech stack recommendations, security considerations, and scalability planning. Provide wireframes description for 5-8 key screens.
+```
+
+## 2. Database Design Prompt
+
+```
+Design a comprehensive database schema for a salon loyalty app including:
+- Customer profiles and visit history
+- Business/salon management with multiple locations
+- Services catalog with point values
+- Rewards/redemption system
+- Staff management and permissions
+
+Provide SQL CREATE statements, relationships diagram description, indexing strategy, and sample data. Include considerations for data privacy and GDPR compliance.
+```
+
+## 3. Mobile App UI/UX Prompt
+
+```
+Create a complete mobile app design system for a salon loyalty app targeting both customers and business owners. Include:
+
+Customer App Features:
+- Onboarding flow for new customers
+- QR code scanning for visit check-ins
+- Points balance and history tracking
+- Rewards catalog and redemption
+- Appointment booking integration
+- Push notifications for rewards/promotions
+
+Business Owner Features:
+- Customer database management
+- Visit logging and point awarding
+- Rewards program customization
+- Analytics dashboard
+- Staff account management
+
+Provide detailed screen descriptions, user journey maps, and modern UI component specifications using current design trends.
+```
+
+## 4. Backend API Development Prompt
+
+```
+Build a comprehensive REST API for a salon loyalty system with these endpoints:
+
+Authentication & Users:
+- Customer registration/login
+- Business owner authentication
+- Staff account management
+
+Core Features:
+- Visit check-in/point awarding
+- Points balance queries
+- Rewards catalog management
+- Redemption processing
+- Customer visit history
+
+Include: detailed API documentation, request/response examples, error handling, rate limiting, authentication middleware, and data validation rules. Use Node.js/Express or specify your preferred backend framework.
+```
+
+## 5. Business Analytics Dashboard Prompt
+
+```
+Create a comprehensive analytics dashboard for salon owners with:
+
+Key Metrics:
+- Customer retention rates
+- Average visit frequency
+- Points redemption patterns
+- Revenue impact of loyalty program
+- Top-performing services
+- Customer lifetime value
+
+Visualizations:
+- Visit trends over time
+- Customer segmentation analysis
+- Rewards program ROI
+- Staff performance metrics
+- Location comparison (for multi-location businesses)
+
+Include dashboard wireframes, chart specifications, and automated report generation features.
+```
+## 6. Rewards & Redemption Engine Prompt
+
+```
+Build a flexible rewards and redemption system with:
+
+Reward Types:
+- Service-based rewards (free haircut, styling, etc.)
+- Percentage discounts
+- Product vouchers
+- VIP experiences
+- Partner business rewards
+
+Configuration Options:
+- Point values per service type
+- Seasonal/promotional multipliers
+- Expiration rules
+- Tier-based reward access
+- Bulk reward packages
+
+Include redemption workflow, inventory management for limited rewards, and automated expiration notifications.
+```
+
+```
+
+## 7. Testing & Quality Assurance Prompt
+
+```
+Develop a comprehensive testing strategy for the salon loyalty app:
+
+Test Categories:
+- Unit tests for core business logic
+- Integration tests for API endpoints
+- UI/UX testing scenarios
+- Security penetration testing
+- Performance and load testing
+- Cross-device compatibility testing
+
+User Acceptance Testing:
+- Customer journey testing
+- Business owner workflow validation
+- Edge case scenarios
+- Data accuracy verification
+- Payment processing testing
+
+Include test cases, automated testing scripts, and bug tracking procedures.
+```
+
+---
+
+## Usage Tips:
+
+1. **Start with prompts 1-3** to establish your foundation
+2. **Customize point values and rewards** based on your target market
+3. **Add your specific business requirements** to each prompt
+4. **Iterate on the outputs** - use follow-up prompts to refine details
+5. **Consider local regulations** for data privacy and customer information
+
+## Quick Start Combination Prompt:
+
+For a rapid MVP, combine prompts 1, 2, 4, and 7 to get your core functionality built first, then expand with the other features.
