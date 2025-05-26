@@ -37,7 +37,7 @@ export default function CustomerProfile() {
             source={{ uri: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg' }}
             style={styles.profileImage}
           />
-          <Text style={styles.profileName}>Sophia Williams</Text>
+          <Text style={styles.profileName}>Kelvin Mutinda</Text>
           <View style={styles.profileBadge}>
             <Award size={16} color="#71809D" />
             <Text style={styles.profileLevel}>Silver Member</Text>
