@@ -1,6 +1,7 @@
 # Barber-and-Salon
 
-Certainly! Here's a comprehensive `README.md` file tailored for your [Barber-and-Salon](https://github.com/Tindah01/Barber-and-Salon/tree/main) project. This README provides an overview, setup instructions, features, and other essential details to help users and contributors understand and work with your project effectively.
+Link To Project
+https://lucky-bavarois-e2d80a.netlify.app/
 
 ---
 
